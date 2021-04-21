@@ -1,4 +1,4 @@
 @echo off
 git add .
-git commit -m README
+git commit -m UPDATA
 git push
