@@ -119,8 +119,8 @@
 
 ### 使用
 
-	<Fragment><Fragment>
-	<></>
+	<Fragment><Fragment> 可以接收key属性，不能接收其他属性
+	<></> 不能接受属性
 
 ### 作用
 
