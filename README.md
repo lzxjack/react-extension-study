@@ -242,7 +242,9 @@ const XxxContext = React.createContext();
 渲染子组时，外面包裹`xxxContext.Provider`，通过`value`属性给后代组件传递数据：
 
 ```javascript
-<XxxContext.Provider value={数据}>子组件</XxxContext.Provider>
+<XxxContext.Provider value={数据}>
+    子组件
+</XxxContext.Provider>
 ```
 
 后代组件读取数据：
@@ -257,7 +259,9 @@ console.log(this.context); // 读取context中的value数据
 方式（2），`函数组件`与`类组件`都可以：
 
 ```javascript
-<XxxContext.Consumer>{value => `${value.username},年龄是${value.age}`}</XxxContext.Consumer>
+<XxxContext.Consumer>
+    {value => `${value.username},年龄是${value.age}`}
+</XxxContext.Consumer>
 ```
 
 # 6. 组件优化
