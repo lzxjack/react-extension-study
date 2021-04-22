@@ -413,3 +413,8 @@ export default class Parent extends Component {
 1. 父子组件 —— `props`
 2. 兄弟组件（非嵌套组件） —— 消息订阅-发布、集中式管理
 3. 祖孙组件（跨级组件） —— 消息订阅-发布、集中式管理、`conText`
+
+***
+欢迎在我的博客上访问：
+
+https://lzxjack.top/
